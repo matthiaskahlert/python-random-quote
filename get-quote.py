@@ -9,6 +9,8 @@ def primary():
 	last = 13
 	rnd = random.randint(0,last)
 	last = len(quotes)-1
+	print(quotes[rnd], end ='')
+	rnd = random.randint(0,last)
 	print(quotes[rnd])
 
 if __name__== "__main__":
